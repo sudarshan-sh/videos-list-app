@@ -30,7 +30,13 @@ const ChannelCard = ({ channelDetail }) => {
           <CardMedia
             image={thumbnails?.high?.url || demoProfilePicture}
             alt={title}
-            sx={{ borderRadius: "50%", width: "180px", height: "180px", mb: 2, border: "1px solid #e3e3e3" }}
+            sx={{
+              borderRadius: "50%",
+              width: "180px",
+              height: "180px",
+              mb: 2,
+              border: "1px solid #e3e3e3",
+            }}
           />
         </CardContent>
       </Link>
