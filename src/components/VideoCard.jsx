@@ -45,7 +45,12 @@ const VideoCard = ({ video }) => {
               : demoChannelUrl
           }
         >
-          <Typography variant="subtitle2" fontWeight="bold" color="gray">
+          <Typography
+            variant="subtitle2"
+            fontWeight="bold"
+            color="gray"
+            sx={{ display: "flex", alignItems: "center", mt: "5px" }}
+          >
             {snippet?.channelTitle || demoChannelTitle}
             <CheckCircle sx={{ fontWeight: 12, color: "gray", ml: "5px" }} />
           </Typography>
